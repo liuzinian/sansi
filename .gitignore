@@ -1,0 +1,70 @@
+# ── IDE ──
+.idea/
+.vscode/
+
+# ── Claude ──
+.claude/
+.superpowers/
+
+# ── Go ──
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Go build output (root level only — preserve console-ui/build/ scripts)
+/build/
+
+# ── Environment & local config ──
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ── Logs & temp ──
+*.log
+tmp/
+temp/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────
+# Console-UI (frontend)
+# ──────────────────────────────────────
+
+# Dependencies
+console-ui/node_modules/
+
+# Build output
+console-ui/dist/
+console-ui/release/
+console-ui/dist-electron/
+console-ui/.eslintcache
+
+# Vite
+console-ui/.vite/
+console-ui/vite.config.*.timestamp*
+
+# Package manager
+console-ui/yarn-error.log
+console-ui/npm-debug.log*
+console-ui/.pnpm-error.log*
+console-ui/.pnpm-debug.log
+
+# Test coverage
+console-ui/tests/**/coverage/
+console-ui/tsconfig.tsbuildinfo
+
+# Misc
+console-ui/report.html
