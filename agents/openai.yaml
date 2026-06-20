@@ -1,4 +1,4 @@
 interface:
   display_name: "三思"
-  short_description: "开工前先锁定对象、依据和行为边界"
-  default_prompt: "Use $sansi to check whether this request is clearly bounded before implementation."
+  short_description: "先定界并保存需求快照"
+  default_prompt: "Use $sansi to check whether this request is clearly bounded before implementation. If something is missing, group similar clarification questions into concise options for the user. Once clarified, save the understood requirement as a reusable requirement snapshot."
