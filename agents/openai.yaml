@@ -1,0 +1,4 @@
+interface:
+  display_name: "三思"
+  short_description: "开工前先锁定对象、依据和行为边界"
+  default_prompt: "Use $sansi to check whether this request is clearly bounded before implementation."
